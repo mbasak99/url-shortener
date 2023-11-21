@@ -16,6 +16,6 @@ func main() {
 
 	err := r.Run(":3000")
 	if err != nil {
-		fmt.Errorf("Failed to start the web server - Error: %v", err)
+		fmt.Errorf("Failed to start the web server - Error: %v\n", err)
 	}
 }
